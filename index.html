@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vivid &amp; White — Premium Beauty &amp; Skincare</title>
+<meta name="description" content="Vivid &amp; White — premium beauty and skincare.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="announce">Free delivery on orders over LE 800 · Return within 14 days</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <button class="icon-btn menu-btn" type="button" aria-label="Open menu" aria-controls="drawer" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <a class="logo" href="index.html" aria-label="Vivid &amp; White — home"><span>Vivid&amp;</span><span>White</span></a>
+    <form class="search" id="site-search" role="search" onsubmit="return false">
+      <label class="sr-only" for="q">Search products</label>
+      <input id="q" type="search" placeholder="What are you looking for?">
+      <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg></button>
+    </form>
+    <div class="header-actions">
+      <a class="icon-btn wl" href="#" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg><span class="badge-count" id="wish-count" hidden>0</span></a>
+      <button class="icon-btn search-toggle" type="button" aria-label="Search" aria-controls="site-search" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg></button>
+      <a class="icon-btn" href="#" aria-label="Cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h3l2.600 12.400a1.500 1.500 0 0 0 1.500 1.200h8.800a1.500 1.500 0 0 0 1.500-1.100L21 7H6"/><circle cx="9.500" cy="20.500" r="1.200"/><circle cx="17.500" cy="20.500" r="1.200"/></svg><span class="badge-count" id="cart-count">0</span></a>
+      <button class="lang" type="button" aria-label="Change language">ar <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></button>
+    </div>
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><button type="button" class="active">Face care <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></button></li>
+        <li><button type="button">Skincare <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></button></li>
+        <li><button type="button">Body <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></button></li>
+        <li><a href="shop.html">Offers</a></li>
+        <li><a href="shop.html" class="">Shop All</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="drawer-overlay" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Menu" inert>
+  <div class="d-top">
+    <button class="icon-btn" type="button" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+    <a class="logo" href="index.html" aria-label="Vivid &amp; White — home"><span>Vivid&amp;</span><span>White</span></a>
+    <div class="d-top-actions">
+      <button class="icon-btn" type="button" data-open-search aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg></button>
+      <a class="icon-btn" href="#" aria-label="Cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h3l2.600 12.400a1.500 1.500 0 0 0 1.500 1.200h8.800a1.500 1.500 0 0 0 1.500-1.100L21 7H6"/><circle cx="9.500" cy="20.500" r="1.200"/><circle cx="17.500" cy="20.500" r="1.200"/></svg></a>
+    </div>
+  </div>
+  <nav aria-label="Mobile">
+    <ul class="d-nav">
+      <li><button class="d-acc" type="button" aria-expanded="false" aria-controls="sub-face">Face care<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 2 4 4-4 4"/></svg></button><ul class="d-sub" id="sub-face" hidden><li><a href="shop.html">Serums</a></li><li><a href="shop.html">Cleansers + Toners</a></li><li><a href="shop.html">Creams + Moisturizers</a></li><li><a href="shop.html">Eye Contour</a></li></ul></li>
+      <li><button class="d-acc" type="button" aria-expanded="false" aria-controls="sub-skin">Skincare<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 2 4 4-4 4"/></svg></button><ul class="d-sub" id="sub-skin" hidden><li><a href="shop.html">Sun Care</a></li><li><a href="shop.html">Lip Balms</a></li><li><a href="shop.html">Intimate Care</a></li></ul></li>
+      <li><button class="d-acc" type="button" aria-expanded="false" aria-controls="sub-body">Body<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 2 4 4-4 4"/></svg></button><ul class="d-sub" id="sub-body" hidden><li><a href="shop.html">Body Lotion</a></li><li><a href="shop.html">Body Splash</a></li><li><a href="shop.html">Deodorants</a></li></ul></li>
+      <li><a href="shop.html">Offers</a></li>
+      <li><a href="shop.html">Shop All</a></li>
+    </ul>
+  </nav>
+  <div class="d-foot">
+    <a class="d-link" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.400 3.600-7 8-7s8 2.600 8 7"/></svg>Sign in / Register</a>
+    <div class="d-pref">
+      <button type="button" class="d-chip"><span class="flag" aria-hidden="true"></span>Egypt (EGP ج.م)<i class="up"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></i></button>
+      <button type="button" class="d-chip">English<i class="up"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></i></button>
+    </div>
+    <div class="d-social">
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.500 21v-8h2.700l.4-3.200h-3.100V7.900c0-.9.300-1.500 1.600-1.500h1.700V3.500c-.3 0-1.300-.1-2.400-.1-2.400 0-4 1.500-4 4.100v2.300H7.700V13h2.700v8z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3.500" y="3.500" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.200" cy="6.800" r=".8" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v11.500a3.800 3.800 0 1 1-3.800-3.800M14 3c.3 2.600 2 4.200 4.600 4.400"/></svg></a>
+    </div>
+  </div>
+</aside>
+<main>
+<section class="hero" aria-label="Featured campaigns">
+  <div class="slides">
+    <div class="slide slide-1"><h1>Supercharged serums.<br>Power to your skin.</h1><div class="hero-products"><div class="art bottle" style="--c:#2f6fe0;--rot:-14deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art bottle" style="--c:#25a244;--rot:-5deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art bottle" style="--c:#e6c52e;--rot:6deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art bottle" style="--c:#f08a24;--rot:15deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div></div>
+    <div class="slide slide-2"><h2>Hair that turns heads.</h2><div class="hero-products"><div class="art tube" style="--c:#a53a58;--rot:-8deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art jar" style="--c:#b02a4a;--rot:0deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art tube" style="--c:#a53a58;--rot:8deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div></div>
+    <div class="slide slide-3"><h2>Glow starts here.</h2><div class="hero-products"><div class="art tube" style="--c:#4a9c7a;--rot:-6deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art bottle" style="--c:#f2c24d;--rot:0deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><div class="art tube" style="--c:#e8508f;--rot:6deg" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div></div>
+  </div>
+  <a class="btn btn-ghost" href="shop.html">Shop now</a>
+  <div class="dots" role="group" aria-label="Choose slide">
+    <button type="button" aria-label="Slide 1"></button><button type="button" aria-label="Slide 2"></button><button type="button" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<section class="pills" aria-label="Shop by category"><div class="container"><ul>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art bottle" style="--c:#2f6fe0;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Serums</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art bottle" style="--c:#cfd6e6;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Cleansers + Toners</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art jar" style="--c:#4a9c7a;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Creams + Moisturizers</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art tube" style="--c:#2f6fe0;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Eye Contour</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art tube" style="--c:#f2c24d;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Lip Balms</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art bottle" style="--c:#e8508f;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Intimate Care</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art tube" style="--c:#f4742c;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>SPF</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art bottle" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Hair Care</a></li>
+<li><a class="pill" href="shop.html"><span class="thumb"><div class="art tube" style="--c:#e9a6c6;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></span>Body</a></li>
+</ul></div></section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div class="tabs" role="tablist">
+        <button class="tab on" type="button" role="tab" aria-selected="true" data-tab="best">Best Sellers</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="new">New Arrivals</button>
+      </div>
+      <a class="link-underline" href="shop.html">Shop All Products</a>
+    </div>
+    <ul class="grid grid-5" data-panel="best">
+<li class="card">
+  <span class="tag">Save LE 45.00</span>
+  <button class="fav" type="button" aria-label="Add Silk Proteins Professional Shampoo 1 Liter to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Silk Proteins Professional Shampoo 1 Liter"><div class="art bottle" style="--c:#ececec;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Silk Proteins Professional Shampoo 1 Liter</a></h3>
+  <p class="price"><span class="now">LE 180.00</span><s>LE 225.00</s></p>
+</li>
+<li class="card">
+  <span class="tag">Save LE 10.00</span>
+  <button class="fav" type="button" aria-label="Add Cloud Scent Body Splash 85 ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Cloud Scent Body Splash 85 ml"><div class="art bottle" style="--c:#f3b2c8;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Cloud Scent Body Splash 85 ml</a></h3>
+  <p class="price"><span class="now">LE 90.00</span><s>LE 100.00</s></p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Facial &amp; Body Hair Bleaching Cream to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Facial &amp; Body Hair Bleaching Cream"><div class="art box" style="--c:#d6264f;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Facial &amp; Body Hair Bleaching Cream</a></h3>
+  <p class="price">LE 80.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Yoghurt Proteins 250 Gm to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Yoghurt Proteins 250 Gm"><div class="art pouch" style="--c:#4aa3df;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Yoghurt Proteins 250 Gm</a></h3>
+  <p class="price">LE 85.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Silk Proteins 250 Gm to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Silk Proteins 250 Gm"><div class="art pouch" style="--c:#e88fb3;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Aloe Strengthening Hair Mask Pouch With Aloe Vera &amp; Silk Proteins 250 Gm</a></h3>
+  <p class="price">LE 85.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Cloud Scent Body Lotion 240 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Cloud Scent Body Lotion 240 Ml"><div class="art tube" style="--c:#e9a6c6;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Cloud Scent Body Lotion 240 Ml</a></h3>
+  <p class="price">LE 130.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Aloe Strengthening Hair Mask Pouch With Aloe Vera 250 Gm to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Aloe Strengthening Hair Mask Pouch With Aloe Vera 250 Gm"><div class="art pouch" style="--c:#2f6b4f;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Aloe Strengthening Hair Mask Pouch With Aloe Vera 250 Gm</a></h3>
+  <p class="price">LE 85.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Advanced Care Forever Long Lengthening Conditioner For Damaged Hair 230 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Advanced Care Forever Long Lengthening Conditioner For Damaged Hair 230 Ml"><div class="art tube" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Advanced Care Forever Long Lengthening Conditioner For Damaged Hair 230 Ml</a></h3>
+  <p class="price">LE 160.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Cloud Scent Heel Cream 60 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Cloud Scent Heel Cream 60 Ml"><div class="art tube" style="--c:#e58ab8;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Cloud Scent Heel Cream 60 Ml</a></h3>
+  <p class="price">LE 70.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Advanced Care Forever Long Lengthening Oil For Hair, Eyelashes And Eyebrows 55 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Advanced Care Forever Long Lengthening Oil For Hair, Eyelashes And Eyebrows 55 Ml"><div class="art box" style="--c:#8a5a78;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Advanced Care Forever Long Lengthening Oil For Hair, Eyelashes And Eyebrows 55 Ml</a></h3>
+  <p class="price">LE 350.00</p>
+</li>
+    </ul>
+    <ul class="grid grid-5" data-panel="new" hidden>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Super Hydrating Serum 10% 4D Hyaluronic + Peptides 30 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Super Hydrating Serum 10% 4D Hyaluronic + Peptides 30 Ml"><div class="art bottle" style="--c:#2f6fe0;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Super Hydrating Serum 10% 4D Hyaluronic + Peptides 30 Ml</a></h3>
+  <p class="price">LE 420.00</p>
+</li>
+<li class="card">
+  <span class="tag">Save LE 60.00</span>
+  <button class="fav" type="button" aria-label="Add Sebum-Control Balancing Serum 2% Salicylic Acid 30 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Sebum-Control Balancing Serum 2% Salicylic Acid 30 Ml"><div class="art bottle" style="--c:#25a244;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Sebum-Control Balancing Serum 2% Salicylic Acid 30 Ml</a></h3>
+  <p class="price"><span class="now">LE 390.00</span><s>LE 450.00</s></p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Anti-Wrinkle &amp; Radiance Serum 10% Niacinamide 30 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Anti-Wrinkle &amp; Radiance Serum 10% Niacinamide 30 Ml"><div class="art bottle" style="--c:#e6c52e;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Anti-Wrinkle &amp; Radiance Serum 10% Niacinamide 30 Ml</a></h3>
+  <p class="price">LE 410.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Brightening Serum 15% Vitamin C Complex 30 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Brightening Serum 15% Vitamin C Complex 30 Ml"><div class="art bottle" style="--c:#f08a24;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Brightening Serum 15% Vitamin C Complex 30 Ml</a></h3>
+  <p class="price">LE 430.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Hydra Lip Balm Honey 10 G to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Hydra Lip Balm Honey 10 G"><div class="art tube" style="--c:#f2c24d;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Hydra Lip Balm Honey 10 G</a></h3>
+  <p class="price">LE 65.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Gentle Foaming Cleanser 150 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Gentle Foaming Cleanser 150 Ml"><div class="art tube" style="--c:#b7c9e6;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Gentle Foaming Cleanser 150 Ml</a></h3>
+  <p class="price">LE 150.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Daily Moisturizing Cream 50 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Daily Moisturizing Cream 50 Ml"><div class="art jar" style="--c:#4a9c7a;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Daily Moisturizing Cream 50 Ml</a></h3>
+  <p class="price">LE 210.00</p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Eye Contour Gel 15 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Eye Contour Gel 15 Ml"><div class="art tube" style="--c:#2f6fe0;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Eye Contour Gel 15 Ml</a></h3>
+  <p class="price">LE 240.00</p>
+</li>
+<li class="card">
+  <span class="tag">Save LE 40.00</span>
+  <button class="fav" type="button" aria-label="Add SPF 50+ Sunscreen Fluid 50 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="SPF 50+ Sunscreen Fluid 50 Ml"><div class="art tube" style="--c:#f4742c;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">SPF 50+ Sunscreen Fluid 50 Ml</a></h3>
+  <p class="price"><span class="now">LE 260.00</span><s>LE 300.00</s></p>
+</li>
+<li class="card">
+  
+  <button class="fav" type="button" aria-label="Add Intimate Care Wash 200 Ml to wishlist" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.3-9.4C1.5 7.800 3.500 4.500 6.900 4.500c2 0 3.500 1 5.100 3 1.600-2 3.100-3 5.100-3 3.400 0 5.400 3.300 4.200 6.600-1.800 4.800-9.300 9.400-9.300 9.400z"/></svg></button>
+  <a class="media" href="product.html" aria-label="Intimate Care Wash 200 Ml"><div class="art bottle" style="--c:#e8508f;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></a>
+  <h3><a href="product.html">Intimate Care Wash 200 Ml</a></h3>
+  <p class="price">LE 120.00</p>
+</li>
+    </ul>
+  </div>
+</section>
+
+<section class="container featured" aria-labelledby="set-title">
+  <div class="stage">
+    <div style="position:absolute;left:8%;width:25%;bottom:12%"><div class="art tube" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div>
+    <div style="position:absolute;left:36%;width:30%;bottom:6%"><div class="art jar" style="--c:#b02a4a;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div>
+    <div style="position:absolute;right:8%;width:25%;bottom:12%"><div class="art tube" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div></div>
+    <span class="hotspot" style="left:20%;top:34%">3</span><span class="hotspot" style="left:49%;top:62%">2</span><span class="hotspot" style="right:20%;top:34%">1</span>
+  </div>
+  <div>
+    <p class="kicker">Top Reviewed Hair Range</p>
+    <h2 id="set-title">Treat your hair to what it deserves</h2>
+    <ul class="set-list">
+<li><span class="n">1</span><div class="art tube" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><span>Keratin Leave-in Cream 230 Ml</span><b>LE 120.00</b></li>
+<li><span class="n">2</span><div class="art jar" style="--c:#b02a4a;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><span>Keratin Hair Mask 200 Gm</span><b>LE 200.00</b></li>
+<li><span class="n">3</span><div class="art tube" style="--c:#a53a58;" aria-hidden="true"><div class="body"></div><div class="shadow"></div></div><span>Keratin Conditioner 230 Ml</span><b>LE 125.00</b></li>
+    </ul>
+    <button class="btn btn-dark" type="button" data-add="3">Add All To Cart</button>
+  </div>
+</section>
+
+<section class="story">
+  <div class="container">
+    <div class="story-row"><span>100 years</span><span class="photo" aria-hidden="true"></span><span class="photo" aria-hidden="true"></span><span>of Egyptian beauty</span></div>
+    <div class="story-row"><span class="photo wide mint" aria-hidden="true"></span><span>trusted by generations</span><span class="photo wide green" aria-hidden="true"></span></div>
+    <ul class="trust">
+      <li><span class="tick"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 6.500 2.500 2.500L10 3.500"/></svg></span>Super Fast Delivery</li>
+      <li><span class="tick"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 6.500 2.500 2.500L10 3.500"/></svg></span>Flexible Payment Options</li>
+      <li><span class="tick"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 6.500 2.500 2.500L10 3.500"/></svg></span>Online Support</li>
+      <li><span class="tick"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 6.500 2.500 2.500L10 3.500"/></svg></span>Return within 14 days</li>
+    </ul>
+    <p class="statement">Unlock your hair's potential with targeted solutions for growth, length, and curl definition</p>
+  </div>
+</section>
+
+<section class="reviews" aria-labelledby="rev-title">
+  <div class="container">
+    <h3 id="rev-title">Customers are saying</h3>
+    <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span><span>4.74 ★ (2,868)</span><span class="verified"><i></i>Verified</span></p>
+    <figure class="review-card" style="margin-inline:auto">
+      <div class="q" aria-hidden="true">”</div>
+      <p id="review-text">Loved the keratin set — my hair feels so much softer after two weeks.</p>
+      <div class="stars" aria-label="5 out of 5 stars">★★★★★</div><br>
+      <figcaption class="who"><i></i><span id="review-name">Amal K.</span></figcaption>
+    </figure>
+    <div class="review-nav">
+      <button type="button" id="rv-prev" aria-label="Previous review"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 2-4 4 4 4"/></svg></button>
+      <button type="button" id="rv-next" aria-label="Next review"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 2 4 4-4 4"/></svg></button>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html"><span>Vivid&amp;</span><span>White</span></a>
+        <p>Premium beauty &amp; skincare, born in Egypt.</p>
+      </div>
+      <div><h4>Shop</h4><ul><li><a href="shop.html">All products</a></li><li><a href="shop.html">Offers</a></li><li><a href="shop.html">Best sellers</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="#">Shipping</a></li><li><a href="#">Returns (14 days)</a></li><li><a href="#">Contact us</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#">About us</a></li><li><a href="#">Our standard</a></li><li><a href="#">Privacy policy</a></li></ul></div>
+    </div>
+    <div class="copyright"><span>© 2026 Vivid &amp; White. All rights reserved.</span><span>Proof of concept — demo content only</span></div>
+  </div>
+</footer>
+<button class="to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4M5 11l7-7 7 7"/></svg></button>
+<script src="assets/script.js"></script>
+</body>
+</html>
